@@ -1,0 +1,39 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-image: url("/assets/img/bg-hero.jpg");
+  background-size: cover;
+}
+
+#trabajos {
+  background: #17a2b8;
+}
+
+#trabajos img {
+  height: 232px;
+  background: #a2cac129 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#trabajos h5 {
+  text-align: left;
+  font: normal normal bold 22px/26px Raleway;
+  letter-spacing: 0px;
+  color: #373a3c;
+  opacity: 1;
+}
+
+#form_info button {
+  background: #17a2b8;
+  width: 99px;
+  height: 40px;
+}
+
+/* Ocultar text_contacto para version mobile  */
+@media (max-width: 576px) {
+  .text_contacto {
+    display: none;
+  }
+}
